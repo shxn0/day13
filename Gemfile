@@ -45,3 +45,7 @@ group :development do
   gem 'spring'
 end
 
+group :develop, :test do
+  gem 'pry-rails'
+  gem 'better_errors'
+end
